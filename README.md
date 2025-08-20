@@ -94,6 +94,31 @@ RATE_LIMIT_WINDOW_MS=900000
 ### Required API Keys
 - **GEMINI_API_KEY**: Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
 
+### 🚀 Vercel Deployment
+
+For Vercel deployment, you need to configure environment variables in the Vercel dashboard:
+
+1. **Deploy to Vercel:**
+   ```bash
+   # Connect your GitHub repository to Vercel
+   # Or use Vercel CLI
+   npm i -g vercel
+   vercel --prod
+   ```
+
+2. **Configure Environment Variables:**
+   - Go to your Vercel project dashboard
+   - Navigate to Settings → Environment Variables
+   - Add the following variables:
+     - `GEMINI_API_KEY`: Your Google AI Studio API key
+     - `NEXT_PUBLIC_APP_URL`: Your Vercel deployment URL (optional)
+
+3. **Redeploy:**
+   - After adding environment variables, trigger a new deployment
+   - Your app should now work correctly on Vercel
+
+> **Note:** Never commit `.env.local` files to GitHub. Use the `.env.example` file as a template and configure environment variables directly in your deployment platform.
+
 ## 📁 Project Structure
 
 ```
