@@ -202,7 +202,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center mt-12 text-gray-500 dark:text-gray-400">
           <p className="text-sm">
-            Built with care for meaningful conversations.
+            Built with care for meaningful conversations by <a href="http://yajuarya.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Yaju Arya</a>.
           </p>
         </footer>
       </div>
