@@ -351,3 +351,349 @@ Import trace for requested module:
  ✓ Compiled in 1735ms (890 modules)
  HEAD / 200 in 316ms
  GET / 200 in 71ms
+ HEAD / 200 in 41ms
+ ✓ Compiled in 517ms (382 modules)
+ GET / 200 in 32ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1808ms (881 modules)
+ GET /readme.md 404 in 2031ms
+ HEAD / 200 in 66ms
+ ✓ Compiled in 646ms (382 modules)
+ ✓ Compiled in 261ms (382 modules)
+ ✓ Compiled in 2.1s (890 modules)
+ ✓ Compiled in 506ms (890 modules)
+ ✓ Compiled in 353ms (890 modules)
+ ✓ Compiled in 152ms (382 modules)
+ ✓ Compiled in 1846ms (890 modules)
+ ✓ Compiled in 686ms (890 modules)
+ ✓ Compiled in 1316ms (890 modules)
+ ✓ Compiled in 667ms (890 modules)
+ ✓ Compiled in 1540ms (890 modules)
+ ✓ Compiled in 498ms (890 modules)
+ ✓ Compiled in 885ms (890 modules)
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1085ms (529 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 2064ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 135ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 135ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 161ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 139ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 390ms
+ ✓ Compiled in 561ms (911 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 194ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 130ms
+ ✓ Compiled in 148ms (382 modules)
+ ✓ Compiled in 128ms (382 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/server/next-font-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/server/next-font-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/server/next-font-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/server/next-font-manifest.json'
+}
+ GET / 500 in 159ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1881ms (902 modules)
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ GET /_next/static/chunks/fallback/webpack.js 500 in 6420ms
+ GET /_next/static/chunks/fallback/main.js 500 in 5754ms
+ GET /_next/static/chunks/fallback/react-refresh.js 500 in 4824ms
+ GET /_next/static/chunks/fallback/pages/_app.js 500 in 4820ms
+ GET /_next/static/chunks/fallback/pages/_error.js 500 in 4818ms
+ ✓ Compiled in 814ms (895 modules)
+ ✓ Compiled in 737ms (382 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/page.js:1:4270) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async S (.next/server/pages/_error.js:19:7944) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ GET / 500 in 1027ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 741ms (895 modules)
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/_not-found/page.js:1:4132) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/_not-found/page.js:1:4132) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/_not-found/page.js:1:4132) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/_not-found/page.js:1:4132) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+    at async K (.next/server/app/_not-found/page.js:1:4132) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/www/html/speakchat-ai/.next/routes-manifest.json'
+}
+ GET /_next/static/chunks/fallback/react-refresh.js?ts=1755701116425 500 in 2010ms
+ GET /_next/static/chunks/fallback/webpack.js?ts=1755701116425 500 in 2006ms
+ GET /_next/static/chunks/fallback/main.js?ts=1755701116425 500 in 2003ms
+ GET /_next/static/chunks/fallback/pages/_error.js?ts=1755701116425 500 in 1748ms
+ GET /_next/static/chunks/fallback/pages/_app.js?ts=1755701116425 500 in 1747ms
+ ✓ Compiled in 231ms (386 modules)
+ ✓ Compiled in 151ms (386 modules)

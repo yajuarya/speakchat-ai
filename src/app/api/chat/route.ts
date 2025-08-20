@@ -73,7 +73,7 @@ STRICT BOUNDARIES - Do NOT help with:
 
 If user asks for prohibited content, politely redirect: "I'm designed to be a friendly AI companion for casual conversation. I can't help with [specific request], but I'd love to chat about your day, interests, or just have a friendly conversation!"
 
-${history.length > 0 ? `Previous conversation context:\n${history.slice(-3).map((msg: string, i: number) => `AI: ${msg}`).join('\n')}\n\n` : ''}User message: ${message}`;
+${history.length > 0 ? `Previous conversation context:\n${history.slice(-3).map((msg: string) => `AI: ${msg}`).join('\n')}\n\n` : ''}User message: ${message}`;
 
     const result = await model.generateContent(fullPrompt);
     const response = await result.response;

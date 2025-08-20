@@ -3,6 +3,7 @@ interface ChatRequest {
   personality: string;
   gender: string;
   language: string;
+  history?: Array<{role: string; content: string}>;
 }
 
 interface ChatResponse {

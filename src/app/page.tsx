@@ -121,7 +121,7 @@ export default function Home() {
               <div className="text-6xl mb-4">🔒</div>
               <h3 className="font-semibold text-gray-800 dark:text-white mb-3">100% Private & Secure</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                Zero registration hassle! Jump right in and chat freely. While conversations go through Gemini API for processing, we don't store anything locally - your privacy matters.
+                Zero registration hassle! Jump right in and chat freely. While conversations go through Gemini API for processing, we don&apos;t store anything locally - your privacy matters.
               </p>
             </div>
             
@@ -129,7 +129,7 @@ export default function Home() {
               <div className="text-6xl mb-4">🌍</div>
               <h3 className="font-semibold text-gray-800 dark:text-white mb-3">🗣️ Native Language Support</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                Speak your heart in any language! Whether it's English, Hindi, Spanish, or 100+ other languages - your AI companion understands you perfectly.
+                Speak your heart in any language! Whether it&apos;s English, Hindi, Spanish, or 100+ other languages - your AI companion understands you perfectly.
               </p>
             </div>
             
@@ -137,7 +137,7 @@ export default function Home() {
               <div className="text-6xl mb-4">⚡</div>
               <h3 className="font-semibold text-gray-800 dark:text-white mb-3">Instant Connection</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                No waiting, no setup! Pick your ideal companion above and start meaningful conversations in seconds. It's that simple!
+                No waiting, no setup! Pick your ideal companion above and start meaningful conversations in seconds. It&apos;s that simple!
               </p>
             </div>
             

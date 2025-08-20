@@ -25,7 +25,7 @@ export default function ConnectionStatus({ className = '' }: ConnectionStatusPro
       
       // Show status indicator when offline or slow connection
       const shouldShow = !currentStatus.isOnline || 
-                        (currentStatus.responseTime && currentStatus.responseTime > 5000);
+                        (currentStatus.responseTime ? currentStatus.responseTime > 5000 : false);
       setIsVisible(shouldShow);
     }, 1000);
 

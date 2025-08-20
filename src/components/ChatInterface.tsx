@@ -38,7 +38,6 @@ export default function ChatInterface({ avatar, onBack }: ChatInterfaceProps) {
   ]);
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [isTyping, setIsTyping] = useState(false);
   const [connectionStatus, setConnectionStatus] = useState<'online' | 'offline' | 'checking'>('online');
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const conversationHistory = useRef<string[]>([]);
@@ -68,44 +67,7 @@ export default function ChatInterface({ avatar, onBack }: ChatInterfaceProps) {
     };
   }, []);
 
-  const detectLanguage = (text: string): string => {
-    // Simple language detection based on character patterns
-    const hindiPattern = /[\u0900-\u097F]/;
-    const arabicPattern = /[\u0600-\u06FF]/;
-    const chinesePattern = /[\u4e00-\u9fff]/;
-    const japanesePattern = /[\u3040-\u309f\u30a0-\u30ff]/;
-    
-    if (hindiPattern.test(text)) return 'Hindi';
-    if (arabicPattern.test(text)) return 'Arabic';
-    if (chinesePattern.test(text)) return 'Chinese';
-    if (japanesePattern.test(text)) return 'Japanese';
-    return 'English';
-  };
 
-  const generatePersonalityPrompt = (userMessage: string, detectedLanguage: string): string => {
-    const personalityTraits = {
-      empathetic: "You are Emma, a caring and empathetic listener. You respond with warmth, understanding, and gentle support. You validate feelings and offer comfort.",
-      encouraging: "You are Alex, an optimistic and encouraging companion. You help people see the bright side and motivate them with positive energy.",
-      wise: "You are Sophia, a thoughtful and wise advisor. You provide insightful perspectives and thoughtful guidance.",
-      friendly: "You are Marcus, a warm and friendly companion. You engage in casual, approachable conversations with a welcoming tone."
-    };
-
-    const trait = personalityTraits[avatar.personality as keyof typeof personalityTraits];
-    
-    return `${trait} 
-
-IMPORTANT INSTRUCTIONS:
-- Respond in ${detectedLanguage} language (the same language the user is using)
-- Keep responses concise (2-3 sentences maximum)
-- Be supportive but don't be overly engaging or addictive
-- Don't encourage dependency on AI conversations
-- If someone seems in crisis, gently suggest professional help
-- Stay in character as ${avatar.name}
-
-User message: "${userMessage}"
-
-Respond naturally in ${detectedLanguage}:`;
-  };
 
   const sendMessage = async () => {
     if (!inputText.trim()) return;
@@ -120,22 +82,24 @@ Respond naturally in ${detectedLanguage}:`;
     setMessages(prev => [...prev, userMessage]);
     conversationHistory.current.push(`User: ${inputText}`);
     setInputText('');
-    setIsTyping(true);
     setIsLoading(true);
     
     // Simulate typing delay for better UX
-    setTimeout(() => setIsTyping(false), 1500);
 
     try {
-      const detectedLanguage = detectLanguage(inputText);
-      const prompt = generatePersonalityPrompt(inputText, detectedLanguage);
 
       const data = await apiService.sendChatMessage({
         message: inputText,
         personality: avatar.personality,
         gender: avatar.gender,
         language: 'auto',
-        history: conversationHistory.current.slice(-6) // Last 6 exchanges (3 user + 3 AI)
+        history: conversationHistory.current.slice(-6).map(msg => {
+          const isUser = msg.startsWith('User: ');
+          return {
+            role: isUser ? 'user' : 'assistant',
+            content: msg.replace(/^(User: |AI: )/, '')
+          };
+        })
       });
       
       

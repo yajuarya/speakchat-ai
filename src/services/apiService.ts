@@ -192,7 +192,7 @@ class ApiService {
   }
 
   private isApiError(error: unknown): error is ApiError {
-    return error && typeof error === 'object' && 'type' in error && 'retryable' in error;
+    return !!(error && typeof error === 'object' && 'type' in error && 'retryable' in error);
   }
 
   private calculateRetryDelay(retryCount: number): number {
@@ -244,7 +244,7 @@ class ApiService {
     // Check if same request is already in progress
     if (this.requestQueue.has(requestKey)) {
       console.log('Deduplicating request');
-      return this.requestQueue.get(requestKey)!;
+      return this.requestQueue.get(requestKey)! as Promise<ChatResponse>;
     }
 
     const requestPromise = this.makeRequest<ChatResponse>(url, {
