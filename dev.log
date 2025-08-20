@@ -697,3 +697,226 @@ Require stack:
  GET /_next/static/chunks/fallback/pages/_app.js?ts=1755701116425 500 in 1747ms
  ✓ Compiled in 231ms (386 modules)
  ✓ Compiled in 151ms (386 modules)
+ GET / 200 in 91ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 853ms (529 modules)
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/api/chat/route.js:24:8677)
+    at Object.<anonymous> (.next/server/app/api/chat/route.js:24:8725) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 1033ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/api/chat/route.js:24:8677)
+    at Object.<anonymous> (.next/server/app/api/chat/route.js:24:8725) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 82ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/api/chat/route.js:24:8677)
+    at Object.<anonymous> (.next/server/app/api/chat/route.js:24:8725) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 78ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/api/chat/route.js:24:8677)
+    at Object.<anonymous> (.next/server/app/api/chat/route.js:24:8725) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 80ms
+ ⨯ Error: Cannot find module './985.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/api/chat/route.js:24:8677)
+    at Object.<anonymous> (.next/server/app/api/chat/route.js:24:8725) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/api/chat'
+}
+ ⨯ Error: Cannot find module './548.js'
+Require stack:
+- /var/www/html/speakchat-ai/.next/server/webpack-runtime.js
+- /var/www/html/speakchat-ai/.next/server/app/api/chat/route.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/require.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/load-components.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/utils.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/options.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/swc/index.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/config.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/next.js
+- /var/www/html/speakchat-ai/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/pages/_document.js:1:321)
+    at Object.<anonymous> (.next/server/pages/_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ POST /api/chat 500 in 140ms
+
+  #  Node.js[659100]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+[?25h
+
+  #  Node.js[659088]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [node]
+ 2: 0xf061e4  [node]
+ 3: 0x74445c245495  [/lib/x86_64-linux-gnu/libc.so.6]
+ 4: 0x74445c245610 on_exit [/lib/x86_64-linux-gnu/libc.so.6]
+ 5: 0xe58b5f node::DefaultProcessExitHandlerInternal(node::Environment*, node::ExitCode) [node]
+ 6: 0xec46ff node::Environment::Exit(node::ExitCode) [node]
+ 7: 0x1cd05e2  [node]
+
+  #  Node.js[659088]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [node]
+ 2: 0xf061e4  [node]
+ 3: 0xf06902 node::TrapWebAssemblyOrContinue(int, siginfo_t*, void*) [node]
+ 4: 0x74445c242520  [/lib/x86_64-linux-gnu/libc.so.6]
