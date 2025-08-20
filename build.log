@@ -1,0 +1,89 @@
+
+> speakchat-ai@0.1.0 build
+> next build
+
+   ▲ Next.js 15.4.6
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/app/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/page.tsx[0m:330:1]
+ [2m327[0m |           </p>
+ [2m328[0m |         </footer>
+ [2m329[0m |       </div>
+ [2m330[0m |     </div>
+     : [35;1m     ^^^^^[0m
+ [2m331[0m |   );
+ [2m332[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+
+
+> Build failed because of webpack errors
+
+  #  Node.js[645379]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [node]
+ 2: 0xf061e4  [node]
+ 3: 0x7fdd64e45495  [/lib/x86_64-linux-gnu/libc.so.6]
+ 4: 0x7fdd64e45610 on_exit [/lib/x86_64-linux-gnu/libc.so.6]
+ 5: 0xe58b5f node::DefaultProcessExitHandlerInternal(node::Environment*, node::ExitCode) [node]
+ 6: 0xec46ff node::Environment::Exit(node::ExitCode) [node]
+ 7: 0x1cd05e2  [node]
+
+  #  Node.js[645379]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [node]
+ 2: 0xf061e4  [node]
+ 3: 0xf06902 node::TrapWebAssemblyOrContinue(int, siginfo_t*, void*) [node]
+ 4: 0x7fdd64e42520  [/lib/x86_64-linux-gnu/libc.so.6]
+Aborted (core dumped)
+
+  #  Node.js[645364]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [npm run build]
+ 2: 0xf061e4  [npm run build]
+ 3: 0x7ee022445495  [/lib/x86_64-linux-gnu/libc.so.6]
+ 4: 0x7ee022445610 on_exit [/lib/x86_64-linux-gnu/libc.so.6]
+ 5: 0xe58b5f node::DefaultProcessExitHandlerInternal(node::Environment*, node::ExitCode) [npm run build]
+ 6: 0xec46ff node::Environment::Exit(node::ExitCode) [npm run build]
+ 7: 0x1cd05e2  [npm run build]
+
+  #  Node.js[645364]: void node::ResetStdio() at ../src/node.cc:760
+  #  Assertion failed: !(err != 0) || (err == -1 && (*__errno_location ()) == 1)
+
+----- Native stack trace -----
+
+ 1: 0xf5c517 node::Assert(node::AssertionInfo const&) [npm run build]
+ 2: 0xf061e4  [npm run build]
+ 3: 0xf06902 node::TrapWebAssemblyOrContinue(int, siginfo_t*, void*) [npm run build]
+ 4: 0x7ee022442520  [/lib/x86_64-linux-gnu/libc.so.6]
+ 5: 0x1883ba0 v8::internal::tracing::TraceEventHelper::GetTracingController() [npm run build]
+ 6: 0x1336eb5 v8::internal::Isolate::CaptureDetailedStackTrace(int, v8::StackTrace::StackTraceOptions) [npm run build]
+ 7: 0x11c4893 v8::StackTrace::CurrentStackTrace(v8::Isolate*, int, v8::StackTrace::StackTraceOptions) [npm run build]
+ 8: 0xf5c466 node::GetCurrentStackTrace(v8::Isolate*, int) [npm run build]
+ 9: 0xea256b node::DumpJavaScriptBacktrace(_IO_FILE*) [npm run build]
+10: 0xf5c523 node::Assert(node::AssertionInfo const&) [npm run build]
+11: 0xf061e4  [npm run build]
+12: 0x7ee022445495  [/lib/x86_64-linux-gnu/libc.so.6]
+13: 0x7ee022445610 on_exit [/lib/x86_64-linux-gnu/libc.so.6]
+14: 0xe58b5f node::DefaultProcessExitHandlerInternal(node::Environment*, node::ExitCode) [npm run build]
+15: 0xec46ff node::Environment::Exit(node::ExitCode) [npm run build]
+16: 0x1cd05e2  [npm run build]

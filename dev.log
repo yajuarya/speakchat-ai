@@ -1,0 +1,353 @@
+
+> speakchat-ai@0.1.0 dev
+> next dev --port 3000 --hostname 0.0.0.0
+
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1968ms
+ ○ Compiling /api/health ...
+ ✓ Compiled /api/health in 4.8s (283 modules)
+ GET /api/health 200 in 5038ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (599 modules)
+ HEAD / 200 in 4750ms
+ ○ Compiling /api/chat ...
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:174:1]
+ [2m171[0m |     }
+ [2m172[0m |   }
+ [2m173[0m |   }
+ [2m174[0m | }
+     : [35;1m^[0m
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:174:1]
+ [2m171[0m |     }
+ [2m172[0m |   }
+ [2m173[0m |   }
+ [2m174[0m | }
+     : [35;1m^[0m
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:174:1]
+ [2m171[0m |     }
+ [2m172[0m |   }
+ [2m173[0m |   }
+ [2m174[0m | }
+     : [35;1m^[0m
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ POST /api/chat 500 in 8246ms
+ GET / 500 in 17ms
+ ⚠ Cross origin request detected from 172.171.199.162 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 500 in 866ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 10ms
+ POST /api/chat 500 in 10ms
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:174:1]
+ [2m171[0m |     }
+ [2m172[0m |   }
+ [2m173[0m | }
+ [2m174[0m | }
+     : [35;1m^[0m
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 500 in 334ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 11ms
+ POST /api/chat 500 in 13ms
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 500 in 965ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ GET / 500 in 409ms
+ POST /api/chat 500 in 9ms
+ ✓ Compiled /_not-found in 1832ms (873 modules)
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 404 in 1591ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled / in 254ms (509 modules)
+ GET / 200 in 42ms
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:174:1]
+ [2m171[0m |     }
+ [2m172[0m |   }
+ [2m173[0m | }
+ [2m174[0m | }
+     : [35;1m^[0m
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ POST /api/chat 500 in 179ms
+ ○ Compiling /api/chat ...
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ GET / 500 in 15ms
+ GET / 500 in 10ms
+ POST /api/chat 500 in 9ms
+ GET / 500 in 9ms
+ ✓ Compiled /_not-found in 1641ms (881 modules)
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 404 in 1360ms
+ GET / 200 in 82ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 49ms
+ ✓ Compiled in 2.6s (890 modules)
+ GET / 200 in 133ms
+ ✓ Compiled in 446ms (890 modules)
+ GET / 200 in 64ms
+ ✓ Compiled in 727ms (890 modules)
+ GET / 200 in 64ms
+ ✓ Compiled in 316ms (890 modules)
+ GET / 200 in 60ms
+ ✓ Compiled in 899ms (890 modules)
+ GET / 200 in 63ms
+ ✓ Compiled in 141ms (382 modules)
+ ✓ Compiled in 119ms (382 modules)
+ GET / 200 in 24ms
+ GET / 200 in 16ms
+ ○ Compiling /api/chat ...
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ ⨯ ./src/app/api/chat/route.ts
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+  [31mx[0m Expected '}', got '<eof>'
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/api/chat/route.ts[0m:172:1]
+ [2m169[0m |         });
+ [2m170[0m |       }
+ [2m171[0m |     }
+ [2m172[0m |   }
+     : [35;1m  ^[0m
+ [2m173[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/chat/route.ts
+ POST /api/chat 500 in 1982ms
+ GET /_next/static/webpack/f64b80105fdf4f1c.webpack.hot-update.json 500 in 8ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 500 in 15ms
+ ✓ Compiled /_not-found in 1735ms (881 modules)
+ GET /_next/static/webpack/a2c80d5289050b26.webpack.hot-update.json 404 in 1343ms
+ GET / 200 in 79ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 42ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 927ms (530 modules)
+ POST /api/chat 200 in 2572ms
+ HEAD / 200 in 202ms
+ POST /api/chat 200 in 1495ms
+ POST /api/chat 200 in 2955ms
+ ✓ Compiled /api/health in 248ms (532 modules)
+ GET /api/health 200 in 324ms
+ ✓ Compiled in 3.2s (890 modules)
+ GET / 200 in 199ms
+ HEAD / 200 in 143ms
+ ✓ Compiled /api/chat in 176ms (529 modules)
+ POST /api/chat 200 in 2576ms
+ POST /api/chat 200 in 5421ms
+ ✓ Compiled in 2.7s (890 modules)
+ GET / 200 in 200ms
+ ⨯ ./src/app/page.tsx
+Error:   [31mx[0m Expected a semicolon
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/page.tsx[0m:212:1]
+ [2m209[0m |     </div>
+ [2m210[0m |   );
+ [2m211[0m | }
+ [2m212[0m |                 tabIndex={0}
+     : [35;1m                           ^[0m
+ [2m213[0m |                 role="button"
+ [2m214[0m |                 aria-label={`Select ${avatar.name}, a ${avatar.personality} ${avatar.gender} companion. ${avatar.description}`}
+ [2m215[0m |                 className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 cursor-pointer transform transition-all duration-200 hover:scale-105 hover:shadow-xl border-2 border-transparent hover:border-indigo-300"
+     `----
+  [31mx[0m Expected ';', '}' or <eof>
+     ,-[[36;1;4m/var/www/html/speakchat-ai/src/app/page.tsx[0m:214:1]
+ [2m211[0m | }
+ [2m212[0m |                 tabIndex={0}
+ [2m213[0m |                 role="button"
+ [2m214[0m |                 aria-label={`Select ${avatar.name}, a ${avatar.personality} ${avatar.gender} companion. ${avatar.description}`}
+     : [35;1m                ^^^^^|^^^^[0m[33;1m^[0m
+     :                      [35;1m`-- [35;1mThis is the expression part of an expression statement[0m[0m
+ [2m215[0m |                 className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 cursor-pointer transform transition-all duration-200 hover:scale-105 hover:shadow-xl border-2 border-transparent hover:border-indigo-300"
+ [2m216[0m |               >
+ [2m217[0m |                 <div className="text-center">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ GET / 500 in 14ms
+ GET / 500 in 13ms
+ HEAD / 500 in 21ms
+ GET / 500 in 12ms
+ GET / 500 in 11ms
+ ✓ Compiled in 1735ms (890 modules)
+ HEAD / 200 in 316ms
+ GET / 200 in 71ms
